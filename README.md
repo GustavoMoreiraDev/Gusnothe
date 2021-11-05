@@ -1,2 +1,2 @@
 # Site-Leading Pages
-Um Projeto de um Site de Barbearia utilizando padrões de layout modernos.
+Um Projeto de um Site Comercial Utilizando Padrões de layout Modernos.

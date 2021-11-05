@@ -7,6 +7,7 @@
     <link rel="apple-touch-icon" sizes="180x180" href="imagens/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="imagens/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="imagens/favicon-16x16.png">
+    <link rel="stylesheet" href="node_modules/@glidejs/glide/dist/css/glide.core.min.css">
     <link rel="manifest" href="imagens/site.webmanifest">
     <link rel="stylesheet" href="style.css">
     <title>Gusnothe</title>
@@ -16,6 +17,12 @@
             <header>
                 <div class="img-wrapper">
                     <img src="imagens/fundo-permanente.jpg" alt="">
+                </div>
+                <div class="banner">
+                    <h1>Gusnothe Assistencia Tecnica</h1>
+                    <p>Especializado em Manutenção e Montagem de Notebooks, Computadores 
+                        Basicos e Gamers Compra e Venda de Eletronicos e Peças.</p>
+                        <button class="btn" type="submit">Entrar Em Contato</button>
                 </div>
         
                 <div class="hamburguer">
@@ -29,7 +36,7 @@
                 <nav>
                     <ul class="menu">
                         <li class="menu-item"><a href="#home" class="menu-link">Inicio</a></li>
-                        <li class="menu-item"><a href="#conhecimentos" class="menu-link">Serviços</a></li>
+                        <li class="menu-item"><a href="#conhecimentos" class="menu-link">Conhecimento</a></li>
                         <li class="menu-item"><a href="#projetos" class="menu-link">Projetos</a></li>
                         <li class="menu-item"><a href="#contato" class="menu-link">Contato</a></li>
                         <li class="menu-item"><a href="#orcamentos" class="menu-link">Orçamentos</a></li>
@@ -42,16 +49,40 @@
                 </div>
             </aside>
 
-            <section>
-                <h1>Gusnothe Assistencia Tecnica</h1>
-                <p>Especializado em Manutenção e Montagem de Notebooks, Computadores 
-                   Basicos e Gamers Compra e Venda de Eletronicos e Peças.</p>
-                <button class="btn" type="submit">Entrar Em Contato</button>
-            </section>
-            <section>
-                
+            <section class="sessao-servicos">
+                <div class="sessao-conteudo">
+                    <div class="sessao-header">
+                        <h1>serviços</h1>
+                    </div>
+                    <div class="sessao-left"></div>
+                    <div class="sessao-text">
+                        <p>Lorem, ipsum dolor.</p>
+                    </div>
+                </div> 
+                <div class="container">
+
+                    <div class="glide">
+                        <div class="glide__track" data-glide-el="track">
+                          <ul class="glide__slides">
+                            <li class="glide__slide"><img src="/imagens/flayer teco.jpg" alt=""></li>
+                            <li class="glide__slide"><img src="/imagens/flayer teco.jpg" alt=""></li>
+                            <li class="glide__slide"><img src="/imagens/flayer teco.jpg" alt=""></li>
+                          </ul>
+                        </div>
+                    </div>
+
+                    <div class="glide__arrows" data-glide-el="controls">
+                        <button class="glide__arrow glide__arrow--left" data-glide-dir="<">
+                            prev
+                        </button>
+                        <button class="glide__arrow glide__arrow--right" data-glide-dir=">">
+                            next
+                        </button>
+                    </div>
+                </div>
             </section>
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/@glidejs/glide"></script>
 </body>
     <script src="index.js"></script>
 </html>

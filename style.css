@@ -15,19 +15,33 @@
     --fonte-secundaria :"josefin Slab",sans-serif;
     --font-action: "Poppins", serif;
 }
+header {
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+}
 
 .img-wrapper {
     width: 100%; 
     height: 100%;
     overflow: hidden;
     background-color: rgba(0, 0, 0, 0.8);
-    animation: zoom 25s;
+    animation: zoom 20s;
 }
 .img-wrapper img {
     width: 100%;
     height: 100%;
     object-fit:cover;
     opacity: 0.7;
+}
+@keyframes zoom {
+    0%{
+        transform: scale(1.3);
+    }
+    100%{
+        transform: scale(1);
+    }
 }
 .banner {
     position: absolute;

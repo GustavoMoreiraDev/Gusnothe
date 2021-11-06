@@ -260,7 +260,7 @@ header {
         position: absolute;
         width: 250px;
         height: 250px;
-        left:8vmax;;
+        left:8vmax;
     }
     .sessao-text {
         font-size: 12px;
@@ -294,13 +294,13 @@ header {
         width: 150px;
         height: 150px;
         top: 62vh;
-        left: 34vmax;;
+        left: 34vmax;
     }
     .img-formatacao {
         position: absolute;
         width: 150px;
         height: 150px;
-        left: 34vmax;;
+        left: 34vmax;
     }
     .sessao-text {
         font-size: 12px;
@@ -313,5 +313,36 @@ header {
         text-align: center;
         top: 68vh;
         left: 24vmax;
+    }
+}
+@media screen and (max-width:450px ){
+    .sessao-header h1 {
+        left: 19vmax;
+        top: 6vh;
+    }
+    .img-tela {
+        position: absolute;
+        width: 150px;
+        height: 150px;
+        top: 62vh;
+        left: 16vmax;
+    }
+    .img-formatacao {
+        position: absolute;
+        width: 150px;
+        height: 150px;
+        left: 16vmax;
+    }
+    .sessao-text {
+        font-size: 12px;
+        text-align: center;
+        top: 38vh;
+        left: 8vmax;
+    }
+    .sessao-text2 {
+        font-size: 12px;
+        text-align: center;
+        top: 68vh;
+        left: 8vmax;
     }
 }

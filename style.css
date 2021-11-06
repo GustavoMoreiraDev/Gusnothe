@@ -297,28 +297,28 @@ header {
         background: red;
     }
     .img-tela {
-        display: none;
         position: absolute;
-        width: 350px;
-        height: 350px;
-        top: 19vh;
-        left: 54vmax;
+        width: 150px;
+        height: 150px;
+        top: 62vh;
+        left: 34vmax;;
     }
     .img-formatacao {
         position: absolute;
-        width: 350px;
-        height: 350px;
-        left: 18vmax;;
+        width: 150px;
+        height: 150px;
+        left: 34vmax;;
     }
     .sessao-text {
         font-size: 12px;
         text-align: center;
-        top: 74vh;
-        left: 25vmax;
+        top: 38vh;
+        left: 24vmax;
     }
     .sessao-text2 {
-        display: none;
         font-size: 12px;
-        top: 38vh;
+        text-align: center;
+        top: 68vh;
+        left: 24vmax;
     }
 }

@@ -323,29 +323,31 @@ header {
     .img-formatacao {
         position: absolute;
         width: 330px;
+        border-radius: 3px;
         height: 250px;
         top: 12vh;
-        left: 3vmax;
+        left: 5vmax;
         object-fit: cover;
     }
     .sessao-text {
         font-size: 12px;
         text-align: center;
         top: 38vh;
-        left: 8vmax;
+        left: 9vmax;
     }
     .img-tela {
         position: absolute;
+        border-radius: 3px;
         width: 330px;
         height: 250px;
         top: 59vh;
-        left: 3vmax;
+        left: 5vmax;
         object-fit: cover;
     }
     .sessao-text2 {
         font-size: 12px;
         text-align: center;
         top: 78vh;
-        left: 8vmax;
+        left: 9vmax;
     }
 }

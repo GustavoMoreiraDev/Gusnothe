@@ -209,11 +209,11 @@ header {
     font-family: var(--fonte-secundaria);
     text-align: center;
     left:10.5vmax;
-    top: 64vh;
+    top: 67vh;
 }
 .sessao-text2 {
     position: relative;
-    top: 48vh;
+    top: 50vh;
     left: 54vmax;
     font-size: 1em;
     font-family: var(--fonte-secundaria);
@@ -245,7 +245,6 @@ header {
 
 @media screen and (max-width: 916px ){
 
-
     .img-tela {
         position: absolute;
         width: 250px;
@@ -266,25 +265,30 @@ header {
     }
     .sessao-text2 {
         font-size: 12px;
-        top: 38vh;
+        top: 42vh;
     }
 }
 @media screen and (max-width:768px ){
 
     .img-tela {
         position: absolute;
-        width: 250px;
-        height: 250px;
-        top: 19vh;
-        left: 42vmax;
+        width: 200px;
+        height: 200px;
+        top: 37vh;
+        left: 47vmax;
+    }
+    .img-formatacao {
+        position: absolute;
+        width: 200px;
+        height: 200px;
+        left: 7vmax;
     }
     .sessao-text {
-        font-size: 12px;
-        top: 40vh;
+        top: 49vh;
+        left: 3vmax;
     }
     .sessao-text2 {
-        font-size: 12px;
-        top: 30vh;
+        top: 55vh;
         left: 43vmax;
     }
 }
@@ -304,13 +308,11 @@ header {
         left: 34vmax;
     }
     .sessao-text {
-        font-size: 12px;
         text-align: center;
         top: 38vh;
         left: 24vmax;
     }
     .sessao-text2 {
-        font-size: 12px;
         text-align: center;
         top: 68vh;
         left: 24vmax;
@@ -373,7 +375,6 @@ header {
         object-fit: cover;
     }
     .sessao-text {
-        font-size: 12px;
         text-align: center;
         top: 38vh;
         left: 9vmax;
@@ -388,7 +389,6 @@ header {
         object-fit: cover;
     }
     .sessao-text2 {
-        font-size: 12px;
         text-align: center;
         top: 78vh;
         left: 9vmax;

@@ -325,7 +325,7 @@ header {
     .banner {
         position: absolute;
         top: 30%;
-        left: 10%;
+        left: 5%;
     }
     .banner h1 {
         font-size: 23px;
@@ -333,14 +333,14 @@ header {
         font-weight: 200;
         text-shadow: .3rem .4rem 2px rgba(0, 0, 0, .4);
         line-height: 3.5rem;
-        margin-bottom: 2rem;
+        margin-bottom: 1rem;
         cursor: default;
         opacity: 0;
         animation: moverBanner 1s 0.5s forwards;
     }
     .banner  p {
         font-family:var(--fonte-secundaria);
-        font-size: 17px;
+        font-size: 12px;
         white-space: pre-line;
         text-shadow: .2rem .2rem rgba(0, 0, 0, .4);
         margin-bottom: 2rem;

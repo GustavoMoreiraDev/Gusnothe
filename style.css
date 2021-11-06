@@ -186,11 +186,10 @@ header {
     background-color: #4286f4;
 }
 .sessao-servicos {
+    background: #0f0c29;
+    background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  
+    background: linear-gradient(to right, #24243e, #302b63, #0f0c29);   
     position: absolute;
-    background: #0f0c29;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    
     display: flex;
     width: 100%;
     height: 110vh;
@@ -204,34 +203,29 @@ header {
     top: 4vh;
     left: 38vmax;
 }
-
 .sessao-text {
     position: relative;
-    font-size: clamp(1em, 1em + 1vw, 1.2em);
+    font-size: 1.2em;
     font-family: var(--fonte-secundaria);
     white-space: pre-line;
-    left:15vh;
+    left:9vmax;
     top: 66vh;
 }
 .sessao-text2 {
     position: relative;
     top: 45.3vh;
     left: 54vmax;
-    font-size: clamp(1em, 1em + 1vw, 1.2em);
+    font-size: 1.2em;
     font-family: var(--fonte-secundaria);
     white-space: pre-line;
+}
 
-}
-.sessao-img {
-    display: flex;
-    justify-content: center;
-}
 .img-tela {
-    position: relative;
-    width: 60vh;
-    height: 60vh;
+    position: absolute;
+    width: 350px;
+    height: 350px;
     top: 19vh;
-    left: 24vmax;
+    left: 54vmax;
     object-fit: cover;
     border-radius: 1rem;
     cursor: pointer;
@@ -239,11 +233,11 @@ header {
     transition: 1s;
 }
 .img-formatacao {
-    position: relative;
-    width: 60vh;
-    height: 60vh;
+    position: absolute;
+    width: 350px;
+    height: 350px;
     top: 19vh;
-    right: 50vmax;
+    left: 10vmax;
     object-fit: unset;
     border-radius: 1rem;
     cursor: pointer;
@@ -252,4 +246,37 @@ header {
 }
 .img-tela:hover, .img-formatacao:hover {
     opacity: 1;
+}
+@media screen and (max-width: 916px ){
+
+    .sessao-servicos {
+        background: blue;
+    }
+    .img-tela {
+        position: absolute;
+        width: 250px;
+        height: 250px;
+        top: 19vh;
+        left: 54vmax;
+    }
+    .img-formatacao {
+        position: absolute;
+        width: 250px;
+        height: 250px;
+        left:8vmax;;
+    }
+    .sessao-text {
+        font-size: 12px;
+        top: 54vh;
+        left:8vmax;
+    }
+    .sessao-text2 {
+        font-size: 12px;
+        top: 38vh;
+    }
+}
+@media screen and (max-width:768px ){
+    .sessao-servicos {
+        background: green;
+    }
 }

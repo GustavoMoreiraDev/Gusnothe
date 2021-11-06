@@ -318,20 +318,21 @@ header {
 @media screen and (max-width:450px ){
     .sessao-header h1 {
         left: 19vmax;
-        top: 6vh;
+        top: 3vh;
     }
     .img-tela {
         position: absolute;
-        width: 150px;
-        height: 150px;
-        top: 62vh;
-        left: 16vmax;
+        width: 290px;
+        height: 250px;
+        top: 52vh;
+        left: 6vmax;
     }
     .img-formatacao {
         position: absolute;
-        width: 150px;
-        height: 150px;
-        left: 16vmax;
+        width: 290px;
+        height: 250px;
+        top: 12vh;
+        left: 6vmax;
     }
     .sessao-text {
         font-size: 12px;

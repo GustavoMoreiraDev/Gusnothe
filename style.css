@@ -320,30 +320,32 @@ header {
         left: 19vmax;
         top: 3vh;
     }
-    .img-tela {
-        position: absolute;
-        width: 290px;
-        height: 250px;
-        top: 52vh;
-        left: 7vmax;
-    }
     .img-formatacao {
         position: absolute;
-        width: 290px;
+        width: 330px;
         height: 250px;
         top: 12vh;
-        left: 7vmax;
+        left: 3vmax;
+        object-fit: cover;
     }
     .sessao-text {
         font-size: 12px;
         text-align: center;
-        top: 38vh;
+        top: 41vh;
         left: 8vmax;
+    }
+    .img-tela {
+        position: absolute;
+        width: 330px;
+        height: 250px;
+        top: 59vh;
+        left: 3vmax;
+        object-fit: cover;
     }
     .sessao-text2 {
         font-size: 12px;
         text-align: center;
-        top: 68vh;
+        top: 78vh;
         left: 8vmax;
     }
 }

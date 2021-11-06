@@ -209,11 +209,11 @@ header {
     font-family: var(--fonte-secundaria);
     white-space: pre-line;
     left:9vmax;
-    top: 66vh;
+    top: 59vh;
 }
 .sessao-text2 {
     position: relative;
-    top: 45.3vh;
+    top: 38vh;
     left: 54vmax;
     font-size: 1.2em;
     font-family: var(--fonte-secundaria);
@@ -229,8 +229,7 @@ header {
     object-fit: cover;
     border-radius: 1rem;
     cursor: pointer;
-    opacity: 0.6;
-    transition: 1s;
+    opacity: 0.7;
 }
 .img-formatacao {
     position: absolute;
@@ -241,12 +240,9 @@ header {
     object-fit: unset;
     border-radius: 1rem;
     cursor: pointer;
-    opacity: 0.6;
-    transition: 1s;
+    opacity: 0.7;
 }
-.img-tela:hover, .img-formatacao:hover {
-    opacity: 1;
-}
+
 @media screen and (max-width: 916px ){
 
     .img-tela {

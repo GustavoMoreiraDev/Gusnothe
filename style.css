@@ -249,9 +249,6 @@ header {
 }
 @media screen and (max-width: 916px ){
 
-    .sessao-servicos {
-        background: blue;
-    }
     .img-tela {
         position: absolute;
         width: 250px;
@@ -276,9 +273,7 @@ header {
     }
 }
 @media screen and (max-width:768px ){
-    .sessao-servicos {
-        background: green;
-    }
+
     .img-tela {
         position: absolute;
         width: 250px;
@@ -293,9 +288,7 @@ header {
     }
 }
 @media screen and (max-width:613px ){
-    .sessao-servicos {
-        background: red;
-    }
+
     .img-tela {
         position: absolute;
         width: 150px;

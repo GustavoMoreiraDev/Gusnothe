@@ -279,12 +279,16 @@ header {
         width: 250px;
         height: 250px;
         top: 19vh;
-        left: 52vmax;
+        left: 42vmax;
+    }
+    .sessao-text {
+        font-size: 12px;
+        top: 40vh;
     }
     .sessao-text2 {
         font-size: 12px;
-        top: 40vh;
-        left: 53vmax;
+        top: 30vh;
+        left: 43vmax;
     }
 }
 @media screen and (max-width:613px ){

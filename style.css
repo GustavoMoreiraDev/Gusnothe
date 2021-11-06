@@ -205,19 +205,19 @@ header {
 }
 .sessao-text {
     position: relative;
-    font-size: 1.2em;
+    font-size: 1em;
     font-family: var(--fonte-secundaria);
-    white-space: pre-line;
-    left:9vmax;
-    top: 59vh;
+    text-align: center;
+    left:10.5vmax;
+    top: 64vh;
 }
 .sessao-text2 {
     position: relative;
-    top: 38vh;
+    top: 48vh;
     left: 54vmax;
-    font-size: 1.2em;
+    font-size: 1em;
     font-family: var(--fonte-secundaria);
-    white-space: pre-line;
+    text-align: center;
 }
 
 .img-tela {
@@ -244,6 +244,7 @@ header {
 }
 
 @media screen and (max-width: 916px ){
+
 
     .img-tela {
         position: absolute;

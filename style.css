@@ -279,4 +279,46 @@ header {
     .sessao-servicos {
         background: green;
     }
+    .img-tela {
+        position: absolute;
+        width: 250px;
+        height: 250px;
+        top: 19vh;
+        left: 52vmax;
+    }
+    .sessao-text2 {
+        font-size: 12px;
+        top: 40vh;
+        left: 53vmax;
+    }
+}
+@media screen and (max-width:613px ){
+    .sessao-servicos {
+        background: red;
+    }
+    .img-tela {
+        display: none;
+        position: absolute;
+        width: 350px;
+        height: 350px;
+        top: 19vh;
+        left: 54vmax;
+    }
+    .img-formatacao {
+        position: absolute;
+        width: 350px;
+        height: 350px;
+        left: 18vmax;;
+    }
+    .sessao-text {
+        font-size: 12px;
+        text-align: center;
+        top: 74vh;
+        left: 25vmax;
+    }
+    .sessao-text2 {
+        display: none;
+        font-size: 12px;
+        top: 38vh;
+    }
 }

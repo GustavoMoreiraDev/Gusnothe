@@ -198,9 +198,9 @@ header {
 .sessao-header h1 {
     font-family: var(--fonte-primária);
     position: relative;
-    top: 12vh;
-    left: 22vh;
-    font-size: clamp(1.50em, 1em + 3vw, 3.4em);
+    top: 4vh;
+    left: 40vmax;
+    font-size: clamp(1.50em, 1em + 3vw, 3.7em);
     text-shadow: .3rem .4rem 2px rgba(0, 0, 0, .4);
 }
 
@@ -209,13 +209,13 @@ header {
     font-size: clamp(1em, 1em + 1vw, 1.5em);
     font-family: var(--fonte-secundaria);
     white-space: pre-line;
-    left:35vh;
-    top: 15vh;
+    left:15vh;
+    top: 66vh;
 }
 .sessao-text2 {
     position: relative;
     top: 43vh;
-    left: 85vh;
+    left: 54vmax;
     font-size: clamp(1em, 1em + 1vw, 1.5em);
     font-family: var(--fonte-secundaria);
     white-space: pre-line;
@@ -232,23 +232,23 @@ header {
     top: 19vh;
     left: 14vmax;
     object-fit: cover;
-    border-radius: 1.5rem;
+    border-radius: 1rem;
     cursor: pointer;
     opacity: 0.6;
     transition: 1s;
 }
-.img-teclado {
+.img-formatacao {
     position: relative;
-    width: 50vh;
-    height: 50vh;
-    top: 54vh;
-    right: 65vmax;
+    width: 60vh;
+    height: 60vh;
+    top: 19vh;
+    right: 58vmax;
     object-fit: unset;
-    border-radius: 1.5rem;
+    border-radius: 1rem;
     cursor: pointer;
     opacity: 0.6;
     transition: 1s;
 }
-.img-tela:hover, .img-teclado:hover {
+.img-tela:hover, .img-formatacao:hover {
     opacity: 1;
 }

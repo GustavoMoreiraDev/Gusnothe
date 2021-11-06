@@ -197,16 +197,17 @@ header {
 }
 .sessao-header h1 {
     font-family: var(--fonte-primária);
+    font-weight: 200;
+    text-shadow: .3rem .4rem 2px rgba(0, 0, 0, 0.219);
+    font-size: clamp(1.50em, 1em + 3vw, 3.7em);
     position: relative;
     top: 4vh;
-    left: 40vmax;
-    font-size: clamp(1.50em, 1em + 3vw, 3.7em);
-    text-shadow: .3rem .4rem 2px rgba(0, 0, 0, .4);
+    left: 38vmax;
 }
 
 .sessao-text {
     position: relative;
-    font-size: clamp(1em, 1em + 1vw, 1.5em);
+    font-size: clamp(1em, 1em + 1vw, 1.2em);
     font-family: var(--fonte-secundaria);
     white-space: pre-line;
     left:15vh;
@@ -214,9 +215,9 @@ header {
 }
 .sessao-text2 {
     position: relative;
-    top: 43vh;
+    top: 45.3vh;
     left: 54vmax;
-    font-size: clamp(1em, 1em + 1vw, 1.5em);
+    font-size: clamp(1em, 1em + 1vw, 1.2em);
     font-family: var(--fonte-secundaria);
     white-space: pre-line;
 
@@ -230,7 +231,7 @@ header {
     width: 60vh;
     height: 60vh;
     top: 19vh;
-    left: 14vmax;
+    left: 24vmax;
     object-fit: cover;
     border-radius: 1rem;
     cursor: pointer;
@@ -242,7 +243,7 @@ header {
     width: 60vh;
     height: 60vh;
     top: 19vh;
-    right: 58vmax;
+    right: 50vmax;
     object-fit: unset;
     border-radius: 1rem;
     cursor: pointer;

@@ -76,8 +76,8 @@ header {
     text-align: justify;
     color: #fff;
     background: #373B44;
-    background: -webkit-linear-gradient(to left, #4286f4, #373B44);  
-    background: linear-gradient(to left, #4286f4, #373B44);
+    background: -webkit-linear-gradient(to left, #4286f4, #350869);  
+    background: linear-gradient(to left, #070f88, #be0e84);
     padding: 1rem 3rem;
     border: none;
     border-radius: 5px;

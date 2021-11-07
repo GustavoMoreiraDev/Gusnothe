@@ -422,12 +422,13 @@ footer {
     }
     footer {
         bottom: -66vh;
-        height: 5rem;
+        height: 6rem;
     }
     .footer-content {
-        width: 2%;
-        display: flex;
-        justify-content: center;
+        position: absolute;
+        left: 72px;
+        top: 10px;
+        width: 1%;
     }
     .footer-content p {
         display: none;

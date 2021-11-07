@@ -260,7 +260,7 @@ footer {
 .footer-content p {
   font-family: var(--fonte-secundaria);
   color: #a7a7a7;
-  font-size: 1.1rem;
+  font-size: 1rem;
 }
 .social-list a{
     margin: 0 2rem; 

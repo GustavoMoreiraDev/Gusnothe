@@ -422,6 +422,7 @@ footer {
     }
     footer {
         bottom: -65vh;
+        height: 5rem;
     }
     .footer-content {
         width: 10%;

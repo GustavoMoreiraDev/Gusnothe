@@ -430,6 +430,6 @@ footer {
         justify-content: center;
     }
     .footer-content p {
-        font-size: 8px;
+        display: none;
       }
 }

@@ -9,6 +9,28 @@
     text-decoration: none;
     cursor: default;
     color: #ffffff;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+    }
+    body {
+        line-height: 1;
+    }
+    ol, ul {
+        list-style: none;
+    }
+    blockquote, q {
+        quotes: none;
+    }
+    blockquote:before, blockquote:after,
+    q:before, q:after {
+        content: '';
+        content: none;
+    }
+    table {
+        border-collapse: collapse;
+        border-spacing: 0;
 }
 :root {
     --fonte-primária :  "Baloo Da 2" , serif;

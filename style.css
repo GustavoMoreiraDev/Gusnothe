@@ -231,11 +231,11 @@ header {
     font-family: var(--fonte-secundaria);
     text-align: center;
     left:10.5vmax;
-    top: 67vh;
+    top: 77vh;
 }
 .sessao-text2 {
     position: relative;
-    top: 50vh;
+    top: 60vh;
     left: 54vmax;
     font-size: 1em;
     font-family: var(--fonte-secundaria);

@@ -425,7 +425,7 @@ footer {
         animation: moverBanner 1s 0.7s forwards;
     }
     .sessao-header h1 {
-        left: 32vmax;
+        left: 19vmax;
         top: 3vh;
     }
     .img-formatacao {
@@ -433,14 +433,14 @@ footer {
         border-radius: 3px;
         width: 35%;
         height: 160px;
-        top: 11vh;
-        left: 27vmax;
+        top: 18vh;
+        left: 16vmax;
         object-fit: cover;
     }
     .sessao-text {
         text-align: center;
         top: 40vh;
-        left: 16vmax;
+        left: 8vmax;
     }
     .img-tela {
         position: absolute;
@@ -448,13 +448,13 @@ footer {
         width: 35%;
         height: 160px;
         top: 58vh;
-        left: 27vmax;
+        left: 16vmax;
         object-fit: cover;
     }
     .sessao-text2 {
         text-align: center;
         top: 75vh;
-        left: 17vmax;
+        left: 8vmax;
     }
     footer {
         bottom: -82vh;
@@ -538,7 +538,7 @@ footer {
       left: 10vmax;
   }
   footer {
-      bottom: -85vh;
+      bottom: -87vh;
       height: 3rem;
   }
   .footer-content {

@@ -16,6 +16,9 @@
     }
     body {
         line-height: 1;
+        background: #0f0c29;
+        background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  
+        background: linear-gradient(to right, #24243e, #302b63, #0f0c29);  
     }
     ol, ul {
         list-style: none;
@@ -208,9 +211,6 @@ header {
     background-color: #4286f4;
 }
 .sessao-servicos {
-    background: #0f0c29;
-    background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  
-    background: linear-gradient(to right, #24243e, #302b63, #0f0c29);   
     position: absolute;
     display: flex;
     width: 100%;

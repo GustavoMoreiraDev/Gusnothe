@@ -292,7 +292,7 @@ footer {
 }
 /*RESPONSIVIDADE NETBOOK*/
 @media screen and (max-width: 1024px ){
-    
+
     .img-tela {
         position: absolute;
         width: 320px;
@@ -386,6 +386,9 @@ footer {
         width: 100%;
         height: 350px;
     }
+    .sessao-servicos {
+        height: 50vh;
+    }
     .img-wrapper {
         width: 100%;
         height: 350px;
@@ -431,33 +434,35 @@ footer {
     .img-formatacao {
         position: absolute;
         border-radius: 3px;
-        width: 35%;
-        height: 160px;
-        top: 18vh;
-        left: 16vmax;
+        width:350px;
+        height: 350px;
+        left: 3vmax;
+        top: 15vh;
         object-fit: cover;
     }
     .sessao-text {
         text-align: center;
-        top: 40vh;
+        top: 62vh;
         left: 8vmax;
+        font-size: 13px;
     }
     .img-tela {
         position: absolute;
         border-radius: 3px;
-        width: 35%;
-        height: 160px;
-        top: 58vh;
-        left: 16vmax;
+        width:350px;
+        height: 350px;
+        left: 3vmax;
+        top: 78vh;
         object-fit: cover;
     }
     .sessao-text2 {
         text-align: center;
-        top: 75vh;
+        font-size: 13px;
+        top: 115vh;
         left: 8vmax;
     }
     footer {
-        bottom: -82vh;
+        bottom: -90vh;
         height: 2rem;
     }
     .footer-content {
@@ -469,84 +474,73 @@ footer {
     .footer-content p {
         display: none;
     }
-}
-/*RESPONSIVIDADE CELULAR MEDIO*/
-@media screen and (max-width:375px ){
-
-    .sessao-header h1 {
-        left: 26vmax;
-    }
-    
-    .img-formatacao {
-        width: 160px;
-        height: 160px;
-        top: 10vh;
-        left: 20vmax;
-    }
-    .sessao-text {
-        font-size: 10px;
-        top: 39vh;
-        left: 12vmax;
-    }
-    .img-tela {
-        top: 56vh;
-        width: 160px;
-        height: 160px;
-        left: 20vmax;
-    }
-    .sessao-text2 {
-        top: 76vh;
-        left: 12vmax;
-    }
-    footer {
-        bottom: -85vh;
-        height: 3rem;
-    }
-    .footer-content {
-        left: 25px;
-        width: 1%;
-    }
-    .footer-content p {
-        display: none;
-      }
-}  
+} 
 /*RESPONSIVIDADE CELULAR PEQUENO*/
-@media screen and (max-width:360px ){
+@media screen and (max-width:375px ){
     .sessao-header h1 {
-        left: 21vmax;
+        left: 18vmax;
     }
   
   .img-formatacao {
-      width: 160px;
-      height: 160px;
+      width: 250px;
+      height: 250px;
+      left: 8vmax;
       top: 10vh;
-      left: 15vmax;
   }
   .sessao-text {
       font-size: 10px;
-      top: 42vh;
+      top: 47vh;
       left: 8vmax;
   }
   .img-tela {
-      width: 160px;
-      height: 160px;
-      left: 15vmax;
+      width: 250px;
+      height: 250px;
+      left: 8vmax;
+      top: 62vh;
   }
   .sessao-text2 {
-      font-size: 10px;
-      top: 79vh;
-      left: 10vmax;
+      font-size: 12px;
+      top: 93vh;
+      left: 8vmax;
   }
   footer {
-      bottom: -87vh;
+      bottom: -75vh;
       height: 3rem;
   }
   .footer-content {
-      left: 2px;
-      width: 1%;
+      left: 15px;
   }
   .footer-content p {
       display: none;
+    }
+}
+@media screen and (max-width:320px ){
+    .img-formatacao {
+        width: 250px;
+        height: 250px;
+        left: 4vmax;
+        top: 10vh;
+    }
+    .sessao-text {
+        font-size: 10px;
+        top: 50vh;
+        left: 8vmax;
+    }
+    .img-tela {
+        width: 250px;
+        height: 250px;
+        left: 4vmax;
+        top: 64vh;
+    }
+    .sessao-text2 {
+        font-size: 10px;
+        top: 96vh;
+    }
+    footer {
+        bottom: -89vh;
+    }
+    .footer-content {
+        left: 3px;
     }
 }
 

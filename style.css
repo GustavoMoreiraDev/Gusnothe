@@ -290,82 +290,97 @@ footer {
 .social-list ul{
     display: flex;
 }
-@media screen and (max-width: 916px ){
+/*RESPONSIVIDADE NETBOOK*/
+@media screen and (max-width: 1024px ){
     
     .img-tela {
         position: absolute;
-        width: 250px;
-        height: 250px;
+        width: 320px;
+        height: 320px;
         top: 19vh;
         left: 54vmax;
     }
     .img-formatacao {
         position: absolute;
-        width: 250px;
-        height: 250px;
+        width: 320px;
+        height: 320px;
         left:8vmax;
     }
     .sessao-text {
         font-size: 12px;
-        top: 54vh;
-        left:8vmax;
+        top: 79vh;
+        left: 11vmax;
     }
     .sessao-text2 {
         font-size: 12px;
-        top: 42vh;
+        top: 67vh;
+        left: 57vmax;
+    }
+    .footer-content {
+        width: 60%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .footer-content p {
+        position: relative;
+        right: 12vmax;
+        font-family: var(--fonte-secundaria);
+        color: #a7a7a7;
+        font-size: 18px;
+    }
+    .social-list a{
+        position: relative;
+        left: 32px;
+        margin: 0 2rem; 
+        color: #a7a7a7;
+        font-size: 1.5rem;   
     }
 }
+/*RESPONSIVIDADE TABLET*/
 @media screen and (max-width:768px ){
     
     .img-tela {
         position: absolute;
-        width: 200px;
-        height: 200px;
-        top: 37vh;
-        left: 47vmax;
+        width: 300px;
+        height: 300px;
+        top: 21vh;
+        left: 52vmax;
     }
     .img-formatacao {
         position: absolute;
-        width: 200px;
-        height: 200px;
+        top: 22vh;
+        width: 300px;
+        height: 300px;
         left: 7vmax;
     }
     .sessao-text {
-        top: 49vh;
-        left: 3vmax;
+        top: 79vh;
+        left: 10vmax;
     }
     .sessao-text2 {
-        top: 55vh;
-        left: 43vmax;
+        top: 66vh;
+        left: 55vmax;
+    }
+    .footer-content {
+        width: 60%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .footer-content p {
+        display: block;
+        position: relative;
+        right: 45px;
+        font-family: var(--fonte-secundaria);
+        color: #a7a7a7;
+        font-size: 12px;
+    }
+    .social-list a{
+        position: relative;
+        left: 40px;
+        font-size: 1rem;   
     }
 }
-/*RESPONSIVIDADE TABLET*/
-@media screen and (max-width:613px ){
-    
-    .img-tela {
-        position: absolute;
-        width: 150px;
-        height: 150px;
-        top: 62vh;
-        left: 34vmax;
-    }
-    .img-formatacao {
-        position: absolute;
-        width: 150px;
-        height: 150px;
-        left: 34vmax;
-    }
-    .sessao-text {
-        text-align: center;
-        top: 38vh;
-        left: 24vmax;
-    }
-    .sessao-text2 {
-        text-align: center;
-        top: 68vh;
-        left: 24vmax;
-    }
-}
+/*RESPONSIVIDADE CELULAR GRANDE*/
 @media screen and (max-width:450px ){
     header {
         width: 100%;
@@ -410,44 +425,44 @@ footer {
         animation: moverBanner 1s 0.7s forwards;
     }
     .sessao-header h1 {
-        left: 19vmax;
+        left: 32vmax;
         top: 3vh;
     }
     .img-formatacao {
         position: absolute;
-        width: 330px;
         border-radius: 3px;
-        height: 250px;
-        top: 12vh;
-        left: 5vmax;
+        width: 35%;
+        height: 160px;
+        top: 11vh;
+        left: 27vmax;
         object-fit: cover;
     }
     .sessao-text {
         text-align: center;
-        top: 38vh;
-        left: 9vmax;
+        top: 40vh;
+        left: 16vmax;
     }
     .img-tela {
         position: absolute;
         border-radius: 3px;
-        width: 330px;
-        height: 250px;
-        top: 59vh;
-        left: 5vmax;
+        width: 35%;
+        height: 160px;
+        top: 58vh;
+        left: 27vmax;
         object-fit: cover;
     }
     .sessao-text2 {
         text-align: center;
-        top: 80vh;
-        left: 9vmax;
+        top: 75vh;
+        left: 17vmax;
     }
     footer {
-        bottom: -66vh;
-        height: 6rem;
+        bottom: -82vh;
+        height: 2rem;
     }
     .footer-content {
         position: absolute;
-        left: 79px;
+        left: 54px;
         top: 10px;
         width: 1%;
     }
@@ -455,9 +470,7 @@ footer {
         display: none;
     }
 }
-
 /*RESPONSIVIDADE CELULAR MEDIO*/
-
 @media screen and (max-width:375px ){
 
     .sessao-header h1 {
@@ -472,16 +485,17 @@ footer {
     }
     .sessao-text {
         font-size: 10px;
-        top: 42vh;
+        top: 39vh;
         left: 12vmax;
     }
     .img-tela {
+        top: 56vh;
         width: 160px;
         height: 160px;
         left: 20vmax;
     }
     .sessao-text2 {
-        top: 79vh;
+        top: 76vh;
         left: 12vmax;
     }
     footer {
@@ -489,19 +503,17 @@ footer {
         height: 3rem;
     }
     .footer-content {
-        left: 55px;
+        left: 25px;
         width: 1%;
     }
     .footer-content p {
         display: none;
       }
-    }
-    
+}  
 /*RESPONSIVIDADE CELULAR PEQUENO*/
-
 @media screen and (max-width:360px ){
     .sessao-header h1 {
-        left: 22vmax;
+        left: 21vmax;
     }
   
   .img-formatacao {
@@ -530,7 +542,7 @@ footer {
       height: 3rem;
   }
   .footer-content {
-      left: 45px;
+      left: 2px;
       width: 1%;
   }
   .footer-content p {

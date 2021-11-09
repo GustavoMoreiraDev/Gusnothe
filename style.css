@@ -444,7 +444,7 @@ footer {
         text-align: center;
         top: 62vh;
         left: 8vmax;
-        font-size: 13px;
+        font-size: 12px;
     }
     .img-tela {
         position: absolute;
@@ -457,7 +457,7 @@ footer {
     }
     .sessao-text2 {
         text-align: center;
-        font-size: 13px;
+        font-size: 12px;
         top: 115vh;
         left: 8vmax;
     }

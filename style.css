@@ -537,7 +537,7 @@ footer {
         top: 96vh;
     }
     footer {
-        bottom: -89vh;
+        top: 1140px;
     }
     .footer-content {
         left: 3px;

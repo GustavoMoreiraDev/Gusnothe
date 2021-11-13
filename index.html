@@ -8,11 +8,27 @@
     <link rel="icon" type="image/png" sizes="32x32" href="imagens/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="imagens/favicon-16x16.png">
     <link rel="manifest" href="imagens/site.webmanifest">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/Site-Lading_Pages/css/style.css">
+    <link rel="stylesheet" href="./css/OverlayScrollbars.min.css">
     <title>Gusnothe</title>
 </head>
 <body>
     <div class="container">
+            <style>
+
+                .custom-class > .os-scrollbar {
+                padding: 0 0 0 2px;
+                }
+                .custom-class > .os-scrollbar > .os-scrollbar-track {
+                border: 0;
+                background-color: #07108857 !important;
+                }
+                .custom-class > .os-scrollbar > .os-scrollbar-track > .os-scrollbar-handle {
+                border-radius: 0;
+                background-color: #070f88 !important;
+                }
+           </style>
+
             <header id="home"> 
                 <div class="img-wrapper">
                     <img src="imagens/fundo-permanente.jpg" alt="">
@@ -97,4 +113,16 @@
     </div>
 </body>
     <script src="index.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="/Site-Lading_Pages/jquery.overlayScrollbars.min.js"></script>
+    <script>(function ($){
+        "use strict";
+    $('body').overlayScrollbars({
+        className: "os-theme-dark custom-class",
+        scrollbars: {
+        clickscolling: true
+        }
+    })
+    })(jQuery)
+    </script>
 </html>
